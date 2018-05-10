@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FinalProject.PickerPage">
+	<ContentPage.Content>
+
+    <Grid BackgroundColor="Honeydew">
+
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*" /> <!-- 0 -->
+        <ColumnDefinition Width="auto" /> <!-- 1 -->
+        <ColumnDefinition Width="*" /> <!-- 2 -->
+          
+    </Grid.ColumnDefinitions>
+
+    <Grid.RowDefinitions>
+            <!--The rows designated for the image-->
+        <RowDefinition Height="20"/> <!-- 0 -->
+        <RowDefinition Height="200"/> <!-- 1 -->
+        <RowDefinition Height="50"/> <!-- 2 -->
+            
+            <!--Row designated for the description-->
+        <RowDefinition Height="auto"/> <!-- 3 -->
+            
+            <!--Rows Designated for the text boxes-->
+        <RowDefinition Height="50"/> <!-- 4 -->
+        <RowDefinition Height="auto"/> <!-- 5 -->
+        <RowDefinition Height="20"/> <!-- 6 -->
+        <RowDefinition Height="auto"/> <!-- 7 -->
+        <RowDefinition Height="20"/> <!-- 8 -->
+        <RowDefinition Height="auto"/> <!-- 9 -->
+        <RowDefinition Height="20" /> <!-- 10 -->
+        <RowDefinition Height="auto" /> <!-- 11 -->
+    </Grid.RowDefinitions>
+
+    <Image Source="" Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="0" Grid.RowSpan="2" x:Name="Image"/>
+            
+    <Label Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="3" Text="Spin for workout" FontSize="30" FontFamily="Times New Roman" x:Name="PickedWorkout" HorizontalOptions="Fill" VerticalOptions="Fill"/> 
+
+    <Button Text="Spin" Grid.Row="7"  Grid.Column="1" Grid.ColumnSpan="3" BorderColor="Red" BorderWidth="1" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" Clicked="SpinHandle_Clicked"/>
+    <Button Text="Examples" Grid.Row="9"  Grid.Column="1" Grid.ColumnSpan="3" BorderColor="Red" BorderWidth="1" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" Clicked="ExamplesHandle_Clicked"/>
+
+    <Label Text="" Grid.Row="11" Grid.Column="1" Grid.ColumnSpan="3" TextColor="Red" FontSize="12" FontFamily="Comic Sans" x:Name="Warning"/>
+</Grid>
+        
+	</ContentPage.Content>
+</ContentPage>

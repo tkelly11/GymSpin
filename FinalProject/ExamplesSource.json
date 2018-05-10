@@ -1,0 +1,118 @@
+﻿{
+  "Categories": [
+    {
+      "Name": "Arms",
+        "Workouts" : [
+          {
+            "Name" : "Bicep Curls",
+            "Description" : "Take a dumbbell in both hands, raise one arms at a time up to the front of your shoulder while bending at the elbow."
+          },
+          {
+            "Name": "Tricep Pushdowns",
+            "Description": "On a cable fly take a angled bar that is attached to a high pulley. Grab the bar at the top of the pulley with both hands. while standing pull the bar down until your arms are slightly bent, then slowly bring your arms back up to the starting position."
+          },
+          {
+            "Name": "Dips",
+            "Description": "You will need a flat bench or a bench like structure. You will want to be in a sitting position with both hands on the bench facing forward. Then you will move your body off of the bench, keeping your hands on the bench. Then extend your legs fully out infront of yourself. start with your arms straight, then slowly move your gluetes downwards until your arms are at a 90 degree angle. Then push yourself back up to the starting position."                                                                                                                                                            
+          }
+        ]
+    },
+    {
+      "Name": "Back",
+        "Workouts" : [
+          {
+            "Name" :  "Deadlifts",
+            "Description" : "You will need a barbell. Start with the barbell on the ground at your feet. Then bend over and grab the barbell at shoulder length apart, you will also want your feet to be placed at shoulder length apart facing straight forward. Bend your knees slightly and then lift the bar with straight arms until you are standing straight up and the bar is at your thighs. Then bring the barbell back down to the ground."                                                                                                                                             
+          },
+          {
+            "Name": "Seated Row",
+            "Description": "You will need a seated row machine. In a sitting position, you will start with the handles infront of your self, at shoulder level. Then you will pull the handles toward yourself until the handles are just infront of your torso. Then slowly bring the handles back to their starting position."
+          },
+          {
+            "Name": "Pull ups",
+            "Description": "You will need a stable bar or handles mounted on a wall or bar above your head. Then grab the bar with both hands facing away from yourself. Then starting with your arms fully extended pull yourself up till your chin is above the bar or handles. Then slowly bring yourself down to the starting position. "
+           
+          }
+        ]
+    },
+    {
+      "Name": "Legs",
+      "Workouts": [
+        {
+          "Name": "Squats",
+          "Description": "You will need a barbell. Start with the barbell on your shoulders behind the neck in a standing position. Positiion your feet at shoulder width, then slowly bend your knees until they are at a 90 degree angle. Then bring yourself back up to the starting position."
+
+        },
+        {
+          "Name": "Lunges",
+          "Description": "You will need dumbbells. Start with a dumbbell in each hand, then in a standing position extend one leg bent at the knee at a 90 degree angle as far as you can infont of yourself. Then bend your other leg at the knee until it lightly touches the ground, and then bring the back leg forward until you are in a standing position, and then repeat alternating legs."
+        },
+        {
+          "Name": "Calf Raises",
+          "Description": "You will need any type of free weight. Holding the weight in your hands at torso level, place the front of your feet on a elevated surface with your heels lower than your fronts. Then raise the heel of your foot to be above your fronts, proceed with slowly lowering your heels back to the starting position."
+
+        }
+      ]
+    },
+    {
+      "Name": "Shoulders",
+      "Workouts": [
+        {
+          "Name": "Upright Barbell Row",
+          "Description": "You will need a barbell. First you want to start with both hands on the barbell, with the palms of your hands facing towards yourself. Then holding the bar down with straight arms, lift the bar up to your chin, bending your elbows outward to the sides. Then bring the bar back down to the starting position. "
+         
+
+        },
+        {
+          "Name": "Side Lateral Raise",
+          "Description": "You will need dumbbells for this exercise. Start with a dumbbell in each hand at your waist. Then raise both dumbbells out until your arms are straight out from the sides of your body. Slowly bring the dumbbells back down to the starting position."
+        },
+        {
+          "Name": "Barbell Shoulder Press",
+          "Description": "You will need a barbell for this exercise. First start with your arms on the barbell bent at 45 degrees out to the sides with the barbell infront of your body at neck height. Then raise the barbell above your body until your arms are perfectly straight. Then return to the starting position. "
+
+        }
+      ]
+    },
+    {
+      "Name": "Chest",
+      "Workouts": [
+        {
+          "Name": "Barbell Bench Press",
+          "Description": "You will a barbell for this exercise. Start with the barbell at your chest while laying prone on your back. Then lift the bar up away frmom your chest until your arms are perfecgtly staight. Then return back to the starting position."
+
+        },
+        {
+          "Name": "Inclined Dumbbell Press",
+          "Description": "You will need dumbbells for this exercise and an inclined bench. First start with a dumbbell in each hand with your arms at a 90 degree angle out to the sides. The raise the dumbbels out away from your body, until the dumbells touch together. Then return the dumbbells back to the starting position."
+        },
+        {
+          "Name": "Pec Fly",
+          "Description": "You will need a pec fly machine for this workout. Start in a sitting postion with the handles position out towards your sides. Then with a handle in each hand pull the handles together until your hands touch infront of yourself. You will want to make sure you keeps your arms at 135 degrees or higher. Then return back to the starting position."
+
+        }
+      ]
+    },
+    {
+      "Name": "Abs",
+      "Workouts": [
+        {
+          "Name": "Sit ups",
+          "Description": "You will not need any equipment for this workout. Start by lying flat on your back with your knees bent at a 45 degree angle. Then with your arms crossed on your chest, lift your upper body until your back is as close to straight up as possible. Then return back to the starting position."
+         
+
+        },
+        {
+          "Name": "Elbow Plank",
+          "Description": "You will not need any equipment for this workout. Start by having your elbows bent and your forearms flat on the floor. Then raise your self up until the only parts of your body that are touching the floor are your forearms and your toes. Then hold this position for 1-2 minutes, or until you cant hold the position. "
+            
+        },
+        {
+          "Name": "Side Elbow Plank",
+          "Description": "You will not need any equipment for this workout. Start by having one elbow bent and your forarm flat on the floor. Then raise your self up until the only parts of your body that are touching the floor are your forearm and the side of your corresponding foot. Then hold this position for 1-2 minutes, or until you cant hold the position. Then switch sides and repeat this process."
+
+        }
+      ]
+    }
+  ]
+}

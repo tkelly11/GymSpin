@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="Workout Picker" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FinalProject.WorkoutPage">
+    
+<Grid BackgroundColor="Honeydew">
+
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="auto" /> <!-- 0 -->
+        <ColumnDefinition Width="*" /> <!-- 1 -->
+          
+    </Grid.ColumnDefinitions>
+
+    <Grid.RowDefinitions>
+            <!--The rows designated for the image-->
+        <RowDefinition Height="100"/> <!-- 0 -->
+        <RowDefinition Height="200"/> <!-- 1 -->
+        <RowDefinition Height="20"/> <!-- 2 -->
+            
+            <!--Row designated for the description-->
+        <RowDefinition Height="auto"/> <!-- 3 -->
+            
+            <!--Rows Designated for the text boxes-->
+        <RowDefinition Height="*"/> <!-- 4 -->
+        <RowDefinition Height="auto"/> <!-- 5 -->
+        <RowDefinition Height="*"/> <!-- 6 -->
+        <RowDefinition Height="auto"/> <!-- 7 -->
+        <RowDefinition Height="*"/> <!-- 8 -->
+        <RowDefinition Height="auto"/> <!-- 9 -->
+        <RowDefinition Height="*"/> <!-- 10 -->
+        <RowDefinition Height="auto"/> <!-- 11 -->
+        <RowDefinition Height="*"/> <!-- 12 -->
+        <RowDefinition Height="auto"/> <!-- 13 -->
+        <RowDefinition Height="*"/> <!-- 14 -->
+        <RowDefinition Height="auto"/> <!-- 15 -->
+    </Grid.RowDefinitions>
+
+    <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Description" x:Name="WorkoutDescription" Font="Times New Roman" FontSize="14" />
+
+   
+    <Switch Grid.Row="3" Grid.Column="1" HorizontalOptions="Start" VerticalOptions="Center" Toggled="PRReps_Toggled"/>
+    <Label Grid.Row="3" Grid.Column="0" Text="Turn on Stats:" FontFamily="Times New Roman" FontSize="14" HorizontalOptions="End" VerticalOptions="Center" Margin="60,0,0,0"/>
+        
+    <Label Grid.Row="5" Grid.Column="0" Text="Reps:" FontFamily="Times New Roman" FontSize="14" IsVisible="false" x:Name="RepsLabel" HorizontalOptions="End"/>
+    <Entry Grid.Row="5" Grid.Column="1" IsVisible="false" x:Name="txtReps" Margin="0,0,100,0"/>
+
+    <Label Grid.Row="7" Grid.Column="0" Text="*PR:" FontFamily="Times New Roman" FontSize="14" IsVisible="false" x:Name="PRLabel" HorizontalOptions="End"/>
+    <Entry Grid.Row="7" Grid.Column="1" IsVisible="false" x:Name="txtPR" Margin="0,0,100,0"/>
+
+    <Button Grid.Row="9" Grid.ColumnSpan="2" Text="Submit" HorizontalOptions="Center" VerticalOptions="Center" x:Name="btnSubmit" Clicked="Submit_Clicked"/>
+
+    <Label Grid.Row="11" Grid.Column="0" Text="Reps:" FontFamily="Times New Roman" FontSize="14" IsVisible="false" x:Name="prlabel3" />
+    <Label Grid.Row="11" Grid.Column="1" Text="" FontFamily="Times New Roman" FontSize="14" x:Name="prlabel2" IsVisible="false" HorizontalOptions="Start"/>
+        
+    <Label Grid.Row="13" Grid.Column="0" Text="PR:" FontFamily="Times New Roman" FontSize="14" IsVisible="false" x:Name="replabel3"/>
+    <Label Grid.Row="13" Grid.Column="1" Text="" FontFamily="Times New Roman" FontSize="14" x:Name="replabel2" IsVisible="false"/>
+        
+    <Label Grid.Row="15" Grid.Column="0" Grid.ColumnSpan="2" Text="*Personal Record" FontFamily="Times New Roman" FontSize="14" IsVisible="false" x:Name="astricks"/>
+</Grid>
+    
+</ContentPage>
